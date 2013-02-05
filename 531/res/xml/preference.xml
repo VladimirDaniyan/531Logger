@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/measurement_unit" >
+        <CheckBoxPreference
+            android:key="unit_of_measurement"
+            android:summary="@string/summary_unit_of_measurement"
+            android:title="@string/title_unit_of_measurement" />
+    </PreferenceCategory>
+   
+
+</PreferenceScreen>

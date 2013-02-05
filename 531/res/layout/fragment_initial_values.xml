@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_xlarge"
+        android:layout_marginTop="@dimen/padding_small"
+        android:text="Best Lift"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/text_size_micro"
+        android:textStyle="bold" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_large"
+        android:layout_marginTop="@dimen/padding_small"
+        android:background="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/etWeightLifted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_large"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Weight Lifted"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/text_size_medium" >
+
+        <requestFocus />
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etRepsPerformed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_large"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Reps Performed"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/text_size_medium" />
+
+    <Button
+        android:id="@+id/bCalculateMaxes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginLeft="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_large"
+        android:layout_marginTop="@dimen/padding_small"
+        android:text="Calculate" />
+
+</LinearLayout>

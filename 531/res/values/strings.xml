@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FiveThreeOne</string>
+    <string name="main_activity">Log</string>
+
+    <!-- ============ -->
+    <!-- week strings -->
+    <!-- ============ -->
+
+    <string name="week1">Week 1</string>
+    <string name="week2">Week 2</string>
+    <string name="week3">Week 3</string>
+    <string name="week4">Week 4</string>
+
+    <!-- ================ -->
+    <!-- exercise strings -->
+    <!-- ================ -->
+
+    <string name="bench_press">Bench Press</string>
+    <string name="shoulder_press">Shoulder Press</string>
+    <string name="deadlift">Deadlift</string>
+    <string name="squat">Squat</string>
+    <string name="max_rep_calculator">1 Rep Max Calculator</string>
+
+
+    <string name="measurement_unit">Unit of measurement</string>
+    <string name="summary_unit_of_measurement">Use kg</string>
+    <string name="title_unit_of_measurement">Default is lb</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bench_press">BenchPress</string>
+    <string name="no_sets">Weights for sets have not been calculated yet</string>
+    <string name="weight">Weight</string>
+    <string name="reps">Reps</string>
+    <string name="calculate_maxes">Calculate Maxes</string>
+    <string name="one_rm">One Rep Max</string>
+    <string name="training_max">Training Max</string>
+    <string name="apply_to_heading">Create Routine</string>
+    <string name="title_activity_max_calculator">Calculate One Rep Max</string>
+    <string name="current_max">Current Max</string>
+    
+    
+    <string name="first_set">First Set</string>
+    
+    <string name="by_5_plus">x 5+</string>
+    <string name="by_3_plus">x 3+</string>
+    <string name="by_1_plus">x 1+</string>
+    <string name="by_5">x 5</string>
+    <string name="by_3">x 3</string>
+    <string name="by_1">x 1</string>
+    <string name="tab_page_num"></string>
+    <string name="calc_one_max">Calculate One Rep Max</string>
+
+</resources>

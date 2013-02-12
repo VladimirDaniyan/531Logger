@@ -1118,13 +1118,14 @@ containing a value of this type.
         public static final int ic_action_log=0x7f020055;
         public static final int ic_action_search=0x7f020056;
         public static final int ic_launcher=0x7f020057;
-        public static final int vpi__tab_indicator=0x7f020058;
-        public static final int vpi__tab_selected_focused_holo=0x7f020059;
-        public static final int vpi__tab_selected_holo=0x7f02005a;
-        public static final int vpi__tab_selected_pressed_holo=0x7f02005b;
-        public static final int vpi__tab_unselected_focused_holo=0x7f02005c;
-        public static final int vpi__tab_unselected_holo=0x7f02005d;
-        public static final int vpi__tab_unselected_pressed_holo=0x7f02005e;
+        public static final int icon=0x7f020058;
+        public static final int vpi__tab_indicator=0x7f020059;
+        public static final int vpi__tab_selected_focused_holo=0x7f02005a;
+        public static final int vpi__tab_selected_holo=0x7f02005b;
+        public static final int vpi__tab_selected_pressed_holo=0x7f02005c;
+        public static final int vpi__tab_unselected_focused_holo=0x7f02005d;
+        public static final int vpi__tab_unselected_holo=0x7f02005e;
+        public static final int vpi__tab_unselected_pressed_holo=0x7f02005f;
     }
     public static final class id {
         public static final int LinearLayout=0x7f050044;
@@ -1233,90 +1234,92 @@ containing a value of this type.
         public static final int fragment_maxes=0x7f030016;
         public static final int fragment_stack=0x7f030017;
         public static final int fragment_tabs_pager=0x7f030018;
-        public static final int set_row=0x7f030019;
-        public static final int sets_list=0x7f03001a;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001b;
-        public static final int sherlock_spinner_item=0x7f03001c;
-        public static final int test_activity=0x7f03001d;
-        public static final int vpi_weeks_tabs=0x7f03001e;
+        public static final int main=0x7f030019;
+        public static final int set_row=0x7f03001a;
+        public static final int sets_list=0x7f03001b;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001c;
+        public static final int sherlock_spinner_item=0x7f03001d;
+        public static final int test_activity=0x7f03001e;
+        public static final int vpi_weeks_tabs=0x7f03001f;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
-        public static final int abs__action_bar_home_description=0x7f0b0000;
+        public static final int abs__action_bar_home_description=0x7f0b0002;
         /**  Content description for the action bar "up" affordance. [CHAR LIMIT=NONE] 
          */
-        public static final int abs__action_bar_up_description=0x7f0b0001;
+        public static final int abs__action_bar_up_description=0x7f0b0003;
         /**  Content description for the action menu overflow button. [CHAR LIMIT=NONE] 
          */
-        public static final int abs__action_menu_overflow_description=0x7f0b0002;
+        public static final int abs__action_menu_overflow_description=0x7f0b0004;
         /**  Label for the "Done" button on the far left of action mode toolbars. 
          */
-        public static final int abs__action_mode_done=0x7f0b0003;
+        public static final int abs__action_mode_done=0x7f0b0005;
         /**  Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] 
          */
-        public static final int abs__activity_chooser_view_dialog_title_default=0x7f0b0005;
+        public static final int abs__activity_chooser_view_dialog_title_default=0x7f0b0007;
         /**  Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] 
          */
-        public static final int abs__activity_chooser_view_see_all=0x7f0b0004;
+        public static final int abs__activity_chooser_view_see_all=0x7f0b0006;
         /**  Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] 
          */
-        public static final int abs__activitychooserview_choose_application=0x7f0b0007;
+        public static final int abs__activitychooserview_choose_application=0x7f0b0009;
         /**  Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] 
          */
-        public static final int abs__share_action_provider_share_with=0x7f0b0006;
+        public static final int abs__share_action_provider_share_with=0x7f0b0008;
         /**  Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
-        public static final int abs__shareactionprovider_share_with=0x7f0b0008;
+        public static final int abs__shareactionprovider_share_with=0x7f0b000a;
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
-        public static final int abs__shareactionprovider_share_with_application=0x7f0b0009;
-        public static final int app_name=0x7f0b000a;
-        public static final int apply_to_heading=0x7f0b0024;
+        public static final int abs__shareactionprovider_share_with_application=0x7f0b000b;
+        public static final int app_name=0x7f0b0001;
+        public static final int apply_to_heading=0x7f0b0025;
         /**  ================ 
  exercise strings 
  ================ 
          */
-        public static final int bench_press=0x7f0b0010;
-        public static final int by_1=0x7f0b002d;
-        public static final int by_1_plus=0x7f0b002a;
-        public static final int by_3=0x7f0b002c;
-        public static final int by_3_plus=0x7f0b0029;
-        public static final int by_5=0x7f0b002b;
-        public static final int by_5_plus=0x7f0b0028;
-        public static final int calc_one_max=0x7f0b002f;
-        public static final int calculate_maxes=0x7f0b0021;
-        public static final int current_max=0x7f0b0026;
-        public static final int deadlift=0x7f0b0012;
-        public static final int first_set=0x7f0b0027;
-        public static final int hello_world=0x7f0b001b;
-        public static final int main_activity=0x7f0b000b;
-        public static final int max_rep_calculator=0x7f0b0014;
-        public static final int measurement_unit=0x7f0b0015;
-        public static final int menu_settings=0x7f0b001c;
-        public static final int no_sets=0x7f0b001e;
-        public static final int one_rm=0x7f0b0022;
-        public static final int reps=0x7f0b0020;
-        public static final int shoulder_press=0x7f0b0011;
-        public static final int squat=0x7f0b0013;
-        public static final int summary_unit_of_measurement=0x7f0b0016;
-        public static final int tab_page_num=0x7f0b002e;
-        public static final int title_activity_bench_press=0x7f0b001d;
-        public static final int title_activity_max_calculator=0x7f0b0025;
-        public static final int title_section1=0x7f0b001a;
-        public static final int title_section2=0x7f0b0019;
-        public static final int title_section3=0x7f0b0018;
-        public static final int title_unit_of_measurement=0x7f0b0017;
-        public static final int training_max=0x7f0b0023;
+        public static final int bench_press=0x7f0b0011;
+        public static final int by_1=0x7f0b002e;
+        public static final int by_1_plus=0x7f0b002b;
+        public static final int by_3=0x7f0b002d;
+        public static final int by_3_plus=0x7f0b002a;
+        public static final int by_5=0x7f0b002c;
+        public static final int by_5_plus=0x7f0b0029;
+        public static final int calc_one_max=0x7f0b0030;
+        public static final int calculate_maxes=0x7f0b0022;
+        public static final int current_max=0x7f0b0027;
+        public static final int deadlift=0x7f0b0013;
+        public static final int first_set=0x7f0b0028;
+        public static final int hello=0x7f0b0000;
+        public static final int hello_world=0x7f0b001c;
+        public static final int main_activity=0x7f0b000c;
+        public static final int max_rep_calculator=0x7f0b0015;
+        public static final int measurement_unit=0x7f0b0016;
+        public static final int menu_settings=0x7f0b001d;
+        public static final int no_sets=0x7f0b001f;
+        public static final int one_rm=0x7f0b0023;
+        public static final int reps=0x7f0b0021;
+        public static final int shoulder_press=0x7f0b0012;
+        public static final int squat=0x7f0b0014;
+        public static final int summary_unit_of_measurement=0x7f0b0017;
+        public static final int tab_page_num=0x7f0b002f;
+        public static final int title_activity_bench_press=0x7f0b001e;
+        public static final int title_activity_max_calculator=0x7f0b0026;
+        public static final int title_section1=0x7f0b001b;
+        public static final int title_section2=0x7f0b001a;
+        public static final int title_section3=0x7f0b0019;
+        public static final int title_unit_of_measurement=0x7f0b0018;
+        public static final int training_max=0x7f0b0024;
         /**  ============ 
  week strings 
  ============ 
          */
-        public static final int week1=0x7f0b000c;
-        public static final int week2=0x7f0b000d;
-        public static final int week3=0x7f0b000e;
-        public static final int week4=0x7f0b000f;
-        public static final int weight=0x7f0b001f;
+        public static final int week1=0x7f0b000d;
+        public static final int week2=0x7f0b000e;
+        public static final int week3=0x7f0b000f;
+        public static final int week4=0x7f0b0010;
+        public static final int weight=0x7f0b0020;
     }
     public static final class style {
         public static final int DialogWindowTitle_Sherlock=0x7f0a0037;

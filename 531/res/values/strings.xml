@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">FiveThreeOne</string>
-    <string name="main_activity">Log</string>
+    <string name="main_activity">Five Three One</string>
 
     <!-- ============ -->
     <!-- week strings -->
